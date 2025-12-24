@@ -129,7 +129,7 @@
         SHIFT_MOUSE {
             bindings = <
 &kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp HASH        &kp DOLLAR  &kp PERCENT                      &kp AMPERSAND  &kp SQT           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
-&kp UNDERSCORE   &kp PIPE           &kp LA(ESCAPE)  &kp TILDE   &kp TILDE    &trans      &trans  &kp PAGE_UP    &mkp MB1          &mkp MB3              &mkp MB2               &kp SEMICOLON
+&kp 0x87   &kp PIPE           &kp LA(ESCAPE)  &kp TILDE   &kp TILDE    &trans      &trans  &kp PAGE_UP    &mkp MB1          &mkp MB3              &mkp MB2               &kp SEMICOLON
 &trans           &trans             &trans          &trans      &trans       &trans      &trans  &kp PAGE_DOWN  &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp PERIOD             &kp SLASH
 &trans           &trans             &trans          &trans      &trans       &trans      &trans  &lt 2 ENTER                                                                   &trans
             >;
