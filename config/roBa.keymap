@@ -109,10 +109,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R                                 &kp T                                                                &kp Y                  &kp U  &lt 4 I    &kp O    &kp P
-&mt LCTRL A       &kp S         &kp D         &kp F                                 &kp G        &kp LS(LG(S))                      &kp MINUS            &kp H                  &kp J  &kp K      &kp L    &mt RCTRL SQT
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                                 &kp B        &kp ESCAPE                         &kp MINUS            &kp N                  &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
-&lt 5 CAPSLOCK    &kp LEFT_WIN  &kp LEFT_WIN  &lt_to_layer_0 3 LANG_ZENKAKUHANKAKU  &lt 1 SPACE  &lt_to_layer_0 0 INT_MUHENKAN      &mt RCTRL BACKSPACE  &mt RIGHT_SHIFT ENTER                             &kp DEL
+&kp Q               &kp W         &kp E         &kp R                                 &kp T                                                                &kp Y                  &kp U  &lt 4 I    &kp O    &kp P
+&mt LCTRL A         &kp S         &kp D         &kp F                                 &kp G        &kp LS(LG(S))                      &kp MINUS            &kp H                  &kp J  &kp K      &kp L    &mt RCTRL SQT
+&mt LEFT_SHIFT Z    &kp X         &kp C         &kp V                                 &kp B        &kp ESCAPE                         &kp MINUS            &kp N                  &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
+&lt 5 LS(CAPSLOCK)  &kp LEFT_WIN  &kp LEFT_WIN  &lt_to_layer_0 3 LANG_ZENKAKUHANKAKU  &lt 1 SPACE  &lt_to_layer_0 0 INT_MUHENKAN      &mt RCTRL BACKSPACE  &mt RIGHT_SHIFT ENTER                             &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -156,10 +156,10 @@
 
         bluetooth {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans        &trans        &trans        &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 3  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans        &trans        &trans        &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                            &trans
+&trans  &trans  &trans  &trans  &trans                      &trans        &trans        &trans        &trans        &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &bt BT_SEL 4  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans        &trans        &trans        &trans        &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                  &trans
             >;
         };
     };
