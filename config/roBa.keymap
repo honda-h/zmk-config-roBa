@@ -108,10 +108,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R                        &kp T                                                          &kp Y                  &kp U  &lt 4 I    &kp O    &kp P
-&kp A             &kp S         &kp D         &kp F                        &kp G        &kp LS(LG(S))                      &kp MINUS      &kp H                  &kp J  &kp K      &kp L    &kp SQT
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp B        &kp ESCAPE                         &kp MINUS      &kp N                  &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 3 INT_HENKAN  &lt 1 SPACE  &lt_to_layer_0 0 INT_MUHENKAN      &kp BACKSPACE  &mt RIGHT_SHIFT ENTER                             &kp DEL
+&kp Q             &kp W         &kp E         &kp R                                 &kp T                                                                &kp Y                  &kp U  &lt 4 I    &kp O    &kp P
+&kp A             &kp S         &kp D         &kp F                                 &kp G        &kp LS(LG(S))                      &kp MINUS            &kp H                  &kp J  &kp K      &kp L    &kp SQT
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                                 &kp B        &kp ESCAPE                         &kp MINUS            &kp N                  &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_WIN  &lt_to_layer_0 3 LANG_ZENKAKUHANKAKU  &lt 1 SPACE  &lt_to_layer_0 0 INT_MUHENKAN      &mt RCTRL BACKSPACE  &mt RIGHT_SHIFT ENTER                             &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -128,10 +128,10 @@
 
         SHIFT_MOUSE {
             bindings = <
-&kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp HASH        &kp DOLLAR  &kp PERCENT                      &kp AMPERSAND  &kp SQT           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
-&kp 0x87         &kp PIPE           &kp LA(ESCAPE)  &kp TILDE   &kp TILDE    &trans      &trans  &kp PAGE_UP    &mkp MB1          &mkp MB3              &mkp MB2               &kp SEMICOLON
-&trans           &trans             &trans          &trans      &trans       &trans      &trans  &kp PAGE_DOWN  &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp PERIOD             &kp SLASH
-&trans           &trans             &trans          &trans      &trans       &trans      &trans  &trans                                                                        &trans
+&kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp HASH            &kp DOLLAR  &kp PERCENT                      &kp AMPERSAND  &kp SQT           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
+&kp 0x87         &kp PIPE           &kp LA(LS(ESCAPE))  &kp TILDE   &kp TILDE    &trans      &trans  &kp PAGE_UP    &mkp MB1          &mkp MB3              &mkp MB2               &kp SEMICOLON
+&trans           &trans             &trans              &trans      &trans       &trans      &trans  &kp PAGE_DOWN  &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp PERIOD             &kp SLASH
+&trans           &trans             &trans              &trans      &trans       &trans      &trans  &trans                                                                        &trans
             >;
         };
 
