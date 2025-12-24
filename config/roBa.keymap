@@ -115,7 +115,7 @@
 &lt 5 LS(CAPSLOCK)  &kp LEFT_WIN  &kp LEFT_WIN  &lt_to_layer_0 3 LANG_ZENKAKUHANKAKU  &lt 1 SPACE  &lt_to_layer_0 0 INT_MUHENKAN      &mt RCTRL BACKSPACE  &mt RIGHT_SHIFT ENTER                             &kp DEL
             >;
 
-            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
+            sensor-bindings = <&inc_dec_kp K_SCROLL_DOWN K_SCROLL_UP>;
         };
 
         MOUSE {
@@ -136,7 +136,7 @@
             >;
         };
 
-        layer_5 {
+        SCROLL {
             bindings = <
 &kp NUMBER_1    &kp NUMBER_2          &kp NUMBER_3    &kp NUMBER_4  &kp N5                         &kp NUMBER_6     &kp N7            &kp N8             &kp N9      &kp N0
 &kp UNDERSCORE  &kp NON_US_BACKSLASH  &kp LA(ESCAPE)  &kp TILDE     &kp TILDE  &trans      &trans  &kp PAGE_UP      &mkp MB1          &mkp MB3           &mkp MB2    &kp SEMICOLON
