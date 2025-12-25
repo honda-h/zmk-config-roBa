@@ -15,6 +15,10 @@
     status = "okay";
 };
 
-&sensors {
-    sensors = <&left_encoder>;
+/ {
+    sensors: sensors {
+        compatible = "zmk,keymap-sensors";
+        sensors = <&left_encoder>;
+        triggers-per-rotation = <10>;
+    };
 };
