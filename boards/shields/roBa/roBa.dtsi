@@ -94,6 +94,7 @@
                 ;
     };
 
+    /*
     left_encoder: encoder_left {
         compatible = "alps,ec11";
         a-gpios = <&xiao_d 5 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
@@ -101,7 +102,21 @@
         steps = <12>;
         status = "disabled";
     };
-
+    */
+    left_encoder: encoder_left {
+        compatible = "zmk, rotary-encoder";
+        a-gpios = <&xiao_d 5 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+        b-gpios = <&xiao_d 0 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+        steps = <12>;
+        status = "disabled";
+    };
+    /*
+    encoder_left_press: encoder_left_press{
+        compatible = "gpio-keys";
+        label = "ENCODER_LEFT_PRESS";
+        gpios = <&xiao_d 4 (GPIO_ACTIVE_LOW | GPIO_PULL_UPL>;
+    };
+    */
     right_encoder: encoder_right {
         status = "disabled";
     };
