@@ -15,8 +15,3 @@
 &left_encoder {
     status = "okay";
 };
-
-/* センサーリストを上書き（右エンコーダを削除） */
-&sensors {
-    sensors = <&left_encoder>;
-};
