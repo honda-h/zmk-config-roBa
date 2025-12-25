@@ -15,3 +15,10 @@
 &left_encoder {
     status = "okay";
 };
+
+/* * 【重要】ここでセンサーリストを「左だけ」に上書きします。
+ * roBa.dtsi の記述がどうなっていようと、ここが優先されます。
+ */
+&sensors {
+    sensors = <&left_encoder>;
+};
