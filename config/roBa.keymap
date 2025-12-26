@@ -33,7 +33,7 @@
 
 // ロータリーエンコーダにスクロールを割り当て
 // reffer from https://note.com/fals_book/n/n7d9e1981317f
-#define ZMK_MOUSE_POINTING_SCRL_VAL 10j
+#define ZMK_MOUSE_POINTING_SCRL_VAL 10
 // reffer end
 
 &mt {
